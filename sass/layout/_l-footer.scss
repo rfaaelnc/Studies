@@ -1,0 +1,8 @@
+$layout-name : 'l-footer';
+
+.#{$layout-name} {
+    
+    background-color: green;
+    grid-area: footer;
+    
+}

@@ -1,0 +1,19 @@
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main {
+    height:200vh;
+    background-color: #cecece;
+}
+
+.scroll-top {
+    position:fixed;
+    right:0;
+    bottom:100px;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 1;
+}

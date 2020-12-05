@@ -1,0 +1,7 @@
+$layout-name : 'l-header';
+
+.#{$layout-name} {
+    background-color: royalblue;
+    grid-area: header;
+    height: rem(70);
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto, sans-serif";
+    font-size: 12px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        ".      main   ."
+        "footer footer footer";
+
+        grid-template-columns: 1fr $global-max-width 1fr;
+
+}

@@ -1,0 +1,34 @@
+.l-header {
+  background-color: royalblue;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  height: rem(70);
+}
+
+.l-main {
+  background-color: rebeccapurple;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: main;
+}
+
+.l-footer {
+  background-color: green;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+body {
+  font-family: "Roboto, sans-serif";
+  font-size: 12px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" ".      main   ." "footer footer footer";
+  -ms-grid-columns: 1fr 1170px 1fr;
+      grid-template-columns: 1fr 1170px 1fr;
+}
+/*# sourceMappingURL=style.css.map */
